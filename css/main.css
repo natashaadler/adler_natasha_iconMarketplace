@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* MAIN CSS DOCUMENT */
+
+/*main Container */
+#container {
+	margin: 0 auto;
+	width: auto;
+  font-family: "Lucida Sans Unicode", "Lusica Grande", sans-serif;
+  font-size: 14px;
+  margin: 20px 100px;
+}
+/*h1 tag*/
+#title {
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* "parent" container for all the icons */
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+}
+
+/* "child" - all icons */
+.icon {
+  width: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+
+div img {
+  border-radius: 30px;
+  cursor: pointer;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+div img:hover {
+  background-color: pink;
+	color: #333;
+}
