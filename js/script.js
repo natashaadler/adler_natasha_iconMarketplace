@@ -1,21 +1,16 @@
 //js DOCUMENT
 
-(() => {
-	console.log('Hello from Music Mania');
+// Selects all icons
+const allSVGS = document.querySelectorAll(".icon");
 
-let btn = document.querySelector(".icon"),
-    allSVGs = document.querySelectorAll(".icon");
 
-function logSVG() {
-  console.log(this.id);
-}
-
-function firstFunction() {
-  btn.style.backgroundcolor = "blue";
-}
-
-btn.addEventListener("click" , "firstFunction");
-
-allSVGs.forEach(item => item.addEventListener("click", logSVG))
-
+// For all the SVG's do this function
+allSVGS.forEach((item) => {
+   // Makes each icon a button
+   item.addEventListener('click', function iconBtn() {
+      // Logs the ID
+      console.log(item.id);
+      // Toggles Class
+      item.classList.toggle('selected');
+   })
 });
