@@ -7,14 +7,47 @@
 	width: auto;
   font-family: "Lucida Sans Unicode", "Lusica Grande", sans-serif;
   font-size: 14px;
-  margin: 20px 100px;
 }
+
+.header {
+	background-color: pink;
+}
+/*header container*/
+.headerAlignment {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+/*logo*/
+.logo {
+	width: 50px;
+	margin-right: 200px;
+	padding: 10px;
+}
+/*social media*/
+.socials ul {
+	margin-left: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.socials img {
+	width: 40px;
+	padding: 10px;
+}
+
 /*h1 tag*/
 #title {
   text-align: center;
-  padding: 10px;
-  font-size: 50px;
-  margin-bottom: 20px;
+  padding: 0px 10px 10px 10px;
+  font-size: 70px;
+	font-family: 'Bangers', cursive;
+}
+
+#subTitle {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 30px;
+	font-family: 'Oswald', sans-serif;
 }
 
 /* "parent" container for all the icons */
@@ -23,7 +56,8 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-bottom: 30px;
+	margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* "child" - all icons */
@@ -31,9 +65,6 @@
   width: 200px;
   padding: 10px;
   margin: 10px;
-}
-
-div img {
   border-radius: 30px;
   cursor: pointer;
 	-webkit-transition: all .5s ease-in-out;
@@ -42,7 +73,11 @@ div img {
 	transition: all .5s ease-in-out;
 }
 
-div img:hover {
+.icon:hover {
   background-color: pink;
-	color: #333;
+}
+
+.footer {
+	background-color: pink;
+	height: 20px;
 }
