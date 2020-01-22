@@ -1,4 +1,4 @@
-![This is a Picture of our logo](images/logo_musicMania.svg "Logo Music Mania" =250x)
+![This is a Picture of our logo](images/logo_musicMania.svg "Logo Music Mania"=250px)
 
 # Music Mania
 Have you ever wondered where you could find the best music icons? Look no further, Music Mania has got your back!
