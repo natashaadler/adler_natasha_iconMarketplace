@@ -14,7 +14,6 @@
 	height:100%;
 	background-image: url("../images/bckg_funk.svg");
 	position: absolute;
-	background-position: bottom 0 right 0;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -38,9 +37,9 @@
 
 /*logo*/
 .logo {
-	width: 90px;
-	margin-right: 100px;
-	padding: 10px;
+	width: 100px;
+	margin-right: 0px;
+	padding: 0px 10px;
 	margin-left: 20px;
 }
 /*social media*/
@@ -97,12 +96,28 @@
   background-color: #aa7b86;
 }
 
+.icon h2 {
+	text-align: center;
+	padding: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
+.icon p {
+	text-align: left;
+	padding: 10px;
+	font-size: 14px;
+	font-family: "Lucida Sans Unicode", "Lusica Grande", sans-serif;
+}
 /* footer */
 .footer {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
 }
 
 /* js application */
 .selected {
-	background-color: #91d7ee;
+	background-image: url("../images/backgroundIcon.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
